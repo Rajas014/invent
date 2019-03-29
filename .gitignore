@@ -1,3 +1,7 @@
 cmake-build-Debug
 cmake-build-Release
 .idea
+.vscode
+build
+build.sh
+upload.sh
