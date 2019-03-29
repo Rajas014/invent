@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="xlnt.test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\service\;CMake Files\external\;CMake Files\external\xlntMaster\;CMake Files\external\xlntMaster\tests\;CMake Files\external\xlntMaster\source\;CMake Files\external\xlntMaster\cmake\;CMake Files\external\xlntMaster\third-party\;CMake Files\external\xlntMaster\third-party\libstudxml\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xlnt.test">
+				<Option output="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/bin/xlnt.test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DXLNT_TEST_DATA_DIR=/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/data"/>
+					<Add directory="/home/rajasekhar/.conan/data/Poco/1.9.0/pocoproject/stable/package/b6706b8bcb49c0603c4009d801dbcc3df5f051bf/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/CLI11/1.7.1/cliutils/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/OpenSSL/1.0.2o/conan/stable/package/7ee2b9bfcba105a6bcb3e1d60e3a0b24323ef7e1/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/../source"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/../third-party/libstudxml"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/source/../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 xlnt.test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xlnt.test/fast">
+				<Option output="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/bin/xlnt.test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DXLNT_TEST_DATA_DIR=/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/data"/>
+					<Add directory="/home/rajasekhar/.conan/data/Poco/1.9.0/pocoproject/stable/package/b6706b8bcb49c0603c4009d801dbcc3df5f051bf/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/CLI11/1.7.1/cliutils/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/OpenSSL/1.0.2o/conan/stable/package/7ee2b9bfcba105a6bcb3e1d60e3a0b24323ef7e1/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/../source"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/../third-party/libstudxml"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/source/../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 xlnt.test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/details/expat/xmlparse.c.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/details/expat/xmlrole.c.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/details/expat/xmltok.c.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/details/genx/char-props.c.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/details/genx/genx.c.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/parser.cxx.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/qname.cxx.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/serializer.cxx.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/external/xlntMaster/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/xml/value-traits.cxx.o">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/cell/cell_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/cell/index_types_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/cell/rich_text_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/assertions.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/path_helper.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/temporary_directory.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/temporary_file.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/test_suite.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/timing.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/helpers/xml_helper.hpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/runner.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/alignment_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/color_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/conditional_format_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/fill_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/number_format_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/protection_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/styles/style_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/utils/datetime_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/utils/helper_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/utils/optional_tests.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/utils/path_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/utils/timedelta_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/utils/variant_tests.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/workbook/named_range_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/workbook/serialization_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/workbook/workbook_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/worksheet/page_setup_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/worksheet/range_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/worksheet/worksheet_test_suite.cpp">
+			<Option target="xlnt.test"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/conanfile.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/conan.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\service\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlnt.cmake">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\xlntMaster\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\xlntMaster\tests\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\xlntMaster\source\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\external\xlntMaster\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/cmake/pkg-config.pc.cmake">
+			<Option virtualFolder="CMake Files\external\xlntMaster\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/external/xlntMaster/third-party/libstudxml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\xlntMaster\third-party\libstudxml\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

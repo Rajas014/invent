@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DataFetcher"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-release\;CMake Files\service\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataFetcher">
+				<Option output="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/bin/DataFetcher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rajasekhar/.conan/data/Poco/1.9.0/pocoproject/stable/package/267e79036c624016543079a2cd6f20b723771f54/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/xlnt/0.1/external/test/package/9bfdcfa2bb925892ecf42e2a018a3f3529826676/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/OpenSSL/1.0.2o/conan/stable/package/75b541b6f810787a4fcee8cec9cfdbf95959366f/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/DataFetcher"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/PUBLIC"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 DataFetcher"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataFetcher/fast">
+				<Option output="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/bin/DataFetcher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rajasekhar/.conan/data/Poco/1.9.0/pocoproject/stable/package/267e79036c624016543079a2cd6f20b723771f54/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/xlnt/0.1/external/test/package/9bfdcfa2bb925892ecf42e2a018a3f3529826676/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/OpenSSL/1.0.2o/conan/stable/package/75b541b6f810787a4fcee8cec9cfdbf95959366f/include"/>
+					<Add directory="/home/rajasekhar/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/DataFetcher"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/PUBLIC"/>
+					<Add directory="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 DataFetcher/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/service/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/src/client.cpp">
+			<Option target="DataFetcher"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/src/config.h">
+			<Option target="DataFetcher"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/src/main.cpp">
+			<Option target="DataFetcher"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/conanfile.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/conan.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-release\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/cmake-build-release/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-release\"/>
+		</Unit>
+		<Unit filename="/home/rajasekhar/RaJa/makeIt/DataFetcher/service/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\service\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
