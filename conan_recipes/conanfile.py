@@ -1,3 +1,4 @@
+
 from conans import ConanFile, CMake, tools
 
 class xlntConan(ConanFile):
@@ -8,7 +9,7 @@ class xlntConan(ConanFile):
     description = "<Description of Hello here>"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
-    default_options = {"shared": False}
+    default_options = {"shared": True}
     generators = "cmake"
 
     def source(self):
@@ -37,4 +38,4 @@ class xlntConan(ConanFile):
         self.copy("*.a", dst="lib", keep_path=False)
 
     def package_info(self):
-        self.cpp_info.libs = ["libxlnt"]
+        self.cpp_info.libs = ["xlnt"]
