@@ -6,6 +6,6 @@ xlnt/0.1@test/test
 cmake
 
 [imports]
-bin, libxlnt.so -> ./bin
+bin, * -> ./bin
 
 

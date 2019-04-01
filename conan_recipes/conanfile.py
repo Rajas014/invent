@@ -9,7 +9,7 @@ class xlntConan(ConanFile):
     description = "<Description of Hello here>"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
-    default_options = {"shared": False}
+    default_options = {"shared": True}
     generators = "cmake"
 
     def source(self):
@@ -30,7 +30,6 @@ class xlntConan(ConanFile):
         # self.run("cmake --build . %s" % cmake.build_config)
 
     def package(self):
-        #self.copy("xlnt", dst="include", src="include")
         self.copy("*.hpp", dst="include/xlnt",src="xlnt/include/xlnt")
         self.copy("*.lib", dst="lib", keep_path=False)
         self.copy("*.dll", dst="bin", keep_path=False)
