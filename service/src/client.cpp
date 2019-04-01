@@ -2,6 +2,7 @@
 
 #include <Poco/Net/FTPClientSession.h>
 #include <Poco/String.h>
+#include <xlnt/xlnt.hpp>
 //#include "../../external/xlntMaster/include/xlnt/xlnt.hpp"
 //#include "../include/libxl.h"
 #include "config.h"
@@ -42,46 +43,30 @@ namespace FtpClient
 
         void parseFile(std::string& is)
         {
-            //std::string str;
-            //printf("Please input xls file name");
-            //std::cin>>str;
-//            std::ifstream ifs("/home/rajasekhar/RaJa/makeIt/files/p17012019M1.xls");
-//
-//            if(!ifs)
-//            {  std::cerr <<"input file name is incorrect" << std::endl;   exit(1);     }
-//
-//            std::ofstream ofs("new1.csv");
-//
-//            ofs<<ifs.rdbuf();
-//            if (!ofs)
-//            {   std::cerr <<"error: can not open \"new.xls\" for output\n";  exit(1);}
-//            //ifs.close();
-//
-//            std::string res;
-//
-//            ofs << res;
-//
-//            std::cout << "=-=-=->:" << res << std::endl;
-//
-//            ofs.close();
-//            std::cout<<"copied one file！";
-//            std::cin.get();
+            std::string str;
+            printf("Please input xls file name");
+            std::cin>>str;
+            std::ifstream ifs("/home/rajasekhar/RaJa/makeIt/files/p17012019M1.xls");
 
-//            std::ifstream iss("/home/rajasekhar/RaJa/makeIt/files/p17012019M1.xls");
-//
-//            std::string line;
-//            while (std::getline(iss, line))
-//            {
-//                const char *begin = line.c_str();
-//                std::cout << "-->" << std::endl;
-//                // strip beyond first comma
-//                if (const char *end = strchr(begin, ','))
-//                {
-//                    std::string column1(begin, end - begin);
-//                    std::cout << "-->" << column1 << std::endl;
-//                }
-//            }
+            if(!ifs)
+            {  std::cerr <<"input file name is incorrect" << std::endl;   exit(1);     }
 
+            std::ofstream ofs("new1.csv");
+
+            ofs<<ifs.rdbuf();
+            if (!ofs)
+            {   std::cerr <<"error: can not open \"new.xls\" for output\n";  exit(1);}
+            //ifs.close();
+
+            std::string res;
+
+            ofs << res;
+
+            std::cout << "=-=-=->:" << res << std::endl;
+
+            ofs.close();
+            std::cout<<"copied one file！";
+            std::cin.get();
         }
 
         void fetchData()
@@ -106,10 +91,23 @@ namespace FtpClient
                     while (std::getline(response, responseStr))
                     {
                         //paraseData();
-                        parseFile(responseStr);
+                        //parseFile(responseStr);
                         //std::cout << "Response: " << responseStr << std::endl;
                     }
                 }
+
+                xlnt::workbook wb;
+                wb.load("file_example_XLSX_100.xlsx");
+                auto ws = wb.active_sheet();
+                std::clog << "Processing spread sheet" << std::endl;
+                for (auto row : ws.rows(false))
+                {
+                    for (auto cell : row)
+                    {
+                        std::clog << cell.to_string() << std::endl;
+                    }
+                }
+                std::clog << "Processing complete" << std::endl;
 
                 session.endDownload();
                 session.logout();
