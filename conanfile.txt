@@ -5,4 +5,7 @@ xlnt/0.1@test/test
 [generators]
 cmake
 
+[imports]
+bin, libxlnt.so -> ./bin
+
 
